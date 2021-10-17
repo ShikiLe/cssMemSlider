@@ -13,12 +13,13 @@ body {
   height: 95vh;
   overflow-x: hidden;
   overflow-y: visible;
-  margin: 0.5rem auto;
+  margin: 0.8rem auto;
   background-color: rgba(143, 50, 168, 0.7);
   box-shadow: 0.1rem 0.3rem 2.3rem 2.1rem rgba(93, 24, 112, 0.42);
   display: grid;
   grid-template: 90% auto / 2fr 1fr;
   row-gap: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .navigation {
@@ -166,6 +167,7 @@ input {
     align-items: center;
     justify-content: center;
     height: unset;
+    width: 90%;
     aspect-ratio: unset;
   }
   .navigation {
@@ -174,9 +176,6 @@ input {
   }
   .text-container {
     grid-row: 3 / 3;
-  }
-  .text {
-    text-align: center;
   }
   .btn {
     width: 2.5rem;
