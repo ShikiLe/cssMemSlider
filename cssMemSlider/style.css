@@ -141,30 +141,30 @@ input {
   margin-left: -800%;
 }
 
-#s1:checked ~ .navigation > .btn:nth-child(1) > .visible-btn {
+#s1:checked ~ .slider > .navigation > .btn:nth-child(1) > .visible-btn {
   background-color: yellow;
 }
-#s2:checked ~ .navigation > .btn:nth-child(2) > .visible-btn {
+#s2:checked ~ .slider > .navigation > .btn:nth-child(2) > .visible-btn {
   background-color: yellow;
 }
-#s3:checked ~ .navigation > .btn:nth-child(3) > .visible-btn {
+#s3:checked ~ .slider > .navigation > .btn:nth-child(3) > .visible-btn {
   background-color: yellow;
 }
-#s4:checked ~ .navigation > .btn:nth-child(4) > .visible-btn {
+#s4:checked ~ .slider > .navigation > .btn:nth-child(4) > .visible-btn {
   background-color: yellow;
 }
-#s5:checked ~ .navigation > .btn:nth-child(5) > .visible-btn {
+#s5:checked ~ .slider > .navigation > .btn:nth-child(5) > .visible-btn {
   background-color: yellow;
 }
-#s6:checked ~ .navigation > .btn:nth-child(6) > .visible-btn {
+#s6:checked ~ .slider > .navigation > .btn:nth-child(6) > .visible-btn {
   background-color: yellow;
 }
-#s7:checked ~ .navigation > .btn:nth-child(7) > .visible-btn {
+#s7:checked ~ .slider > .navigation > .btn:nth-child(7) > .visible-btn {
   background-color: yellow;
 }
-#s8:checked ~ .navigation > .btn:nth-child(8) > .visible-btn {
+#s8:checked ~ .slider > .navigation > .btn:nth-child(8) > .visible-btn {
   background-color: yellow;
 }
-#s9:checked ~ .navigation > .btn:nth-child(9) > .visible-btn {
+#s9:checked ~ .slider > .navigation > .btn:nth-child(9) > .visible-btn {
   background-color: yellow;
 }
