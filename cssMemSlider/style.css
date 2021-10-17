@@ -34,11 +34,7 @@ html {
    align-self: center;
   }
   
-  .text {
-    width: 9rem;
-    overflow: hidden;
-    height: 900%;
-  }
+ 
   
   span {
     font-family: 'Permanent Marker', cursive;
@@ -95,7 +91,11 @@ html {
     height: 100%;
   }
   
-  
+  .text {
+    width: 9rem;
+    overflow: hidden;
+    height: 900%;
+  }
   
   .slides {
     transition: margin-left 300ms;
@@ -130,3 +130,30 @@ html {
     margin-left: -800%;
   }
   
+  #s1:checked ~ .navigation > .btn:nth-child(1) > .visible-btn {
+    background-color: yellow;
+  }
+  #s2:checked ~ .navigation > .btn:nth-child(2) > .visible-btn {
+    background-color: yellow;
+  }
+  #s3:checked ~ .navigation > .btn:nth-child(3) > .visible-btn {
+    background-color: yellow;
+  }
+  #s4:checked ~ .navigation > .btn:nth-child(4) > .visible-btn {
+    background-color: yellow;
+  }
+  #s5:checked ~ .navigation > .btn:nth-child(5) > .visible-btn {
+    background-color: yellow;
+  }
+  #s6:checked ~ .navigation > .btn:nth-child(6) > .visible-btn {
+    background-color: yellow;
+  }
+  #s7:checked ~ .navigation > .btn:nth-child(7) > .visible-btn {
+    background-color: yellow;
+  }
+  #s8:checked ~ .navigation > .btn:nth-child(8) > .visible-btn {
+    background-color: yellow;
+  }
+  #s9:checked ~ .navigation > .btn:nth-child(9) > .visible-btn {
+    background-color: yellow;
+  }
