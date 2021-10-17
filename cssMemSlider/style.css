@@ -11,7 +11,8 @@ body {
 .slider {
   aspect-ratio: 1/1;
   height: 95vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: visible;
   margin: 0.5rem auto;
   background-color: rgba(143, 50, 168, 0.7);
   box-shadow: 0.1rem 0.3rem 2.3rem 2.1rem rgba(93, 24, 112, 0.42);
@@ -160,31 +161,22 @@ input {
 @media (max-width: 750px) {
   .slider {
     grid-template-columns: 1fr;
-    grid-template-rows: 90% 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     gap: 0.8rem;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    aspect-ratio: 0;
+    height: unset;
+    aspect-ratio: unset;
   }
   .navigation {
     margin: 0 auto;
+    grid-row: 2 / 3;
+  }
+  .text-container {
     grid-row: 3 / 3;
   }
   .text {
     text-align: center;
-  }
-}
-
-@media (max-width: 450px) {
-  .slider {
-    grid-template-columns: 1fr;
-    grid-template-rows: 85% 1fr 1fr;
-    height: 100%;
-    aspect-ratio: 0;
-  }
-  span {
-    font-size: 1.5rem;
   }
   .btn {
     width: 2.5rem;
@@ -192,7 +184,14 @@ input {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .slider {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+  }
+  span {
+    font-size: 1.5rem;
+  }
   .btn {
     width: 2rem;
     height: 2rem;
