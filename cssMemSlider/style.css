@@ -168,3 +168,46 @@ input {
 #s9:checked ~ .slider > .navigation > .btn:nth-child(9) > .visible-btn {
   background-color: yellow;
 }
+
+
+@media (max-width: 750px) {
+  .slider {
+   grid-template-columns: 1fr;
+   grid-template-rows: 90% 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    aspect-ratio: 0;
+  }
+  .navigation {
+    margin: 0 auto;
+    grid-row: 3 / 3;
+  }
+  .text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider {
+    grid-template-columns: 1fr;
+    grid-template-rows: 85% 1fr 1fr;
+     height: 100%;
+     aspect-ratio: 0;
+   }
+   span {
+     font-size: 1.5rem;
+   }
+   .btn {
+     width: 2.5rem;
+     height: 2.5rem;
+   }
+}
+
+@media (max-width: 400px) {
+  .btn {
+    width: 2rem;
+    height: 2rem;
+  }
+}
