@@ -196,3 +196,13 @@ input {
     height: 2rem;
   }
 }
+
+@media (max-width: 400px) {
+  .btn {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+ .navigation {
+   gap: 0.3rem;
+ }
+}
